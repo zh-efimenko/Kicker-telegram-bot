@@ -36,6 +36,7 @@ handler("/stats") {
             Games rated: *${playerStats.rated}*
             Games won: *${playerStats.countWins}*
             Games lost: *${playerStats.countLosses}*
+            Winning percentage: *${playerStats.winningPercentage}%*
             Goals for: *${playerStats.goalsFor}*
             Goals against: *${playerStats.goalsAgainst}*
             Current loss streak: *${playerStats.currentLossesStreak}*
