@@ -23,7 +23,7 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter')
 
     // Telegraff
-    implementation('me.ruslanys.telegraff:telegraff-starter:1.0.0-RC.25')
+    implementation('me.ruslanys.telegraff:telegraff-starter:1.0.0-RC.26')
 
     // Kotlin
     implementation('com.fasterxml.jackson.module:jackson-module-kotlin')
