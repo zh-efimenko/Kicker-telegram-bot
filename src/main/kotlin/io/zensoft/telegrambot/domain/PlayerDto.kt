@@ -1,4 +1,4 @@
-package io.zensoft.telegrambot.dto
+package io.zensoft.telegrambot.domain
 
 /**
  * @author Yauheni Efimenko
