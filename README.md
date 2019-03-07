@@ -1,5 +1,12 @@
 ![Logo](https://github.com/zh-efimenko/Kicker-telegram-bot/blob/master/docs/logo.png?raw=true)    
   
+  
+<p align="center">
+    <a href="https://github.com/zh-efimenko/ZenKicker-telegram-bot/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/zh-efimenko/Kicker-telegram-bot.svg"></a>
+    <a href="https://hub.docker.com/r/zensoftio/kicker"><img alt="DockerHub Size" src="https://img.shields.io/microbadger/image-size/image-size/eefimenko/kicker-telegram-bot.svg"></a>
+    <a href="https://github.com/zh-efimenko/ZenKicker-telegram-bot/blob/master/LICENSE.txt"><img alt="license" src="https://img.shields.io/github/license/zh-efimenko/Kicker-telegram-bot.svg"></a>
+</p>
+
 # Kicker-telegram-bot
 
 ## Running
