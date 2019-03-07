@@ -1,4 +1,4 @@
-![Logo](docs/logo.png)    
+![Logo](https://github.com/zh-efimenko/Kicker-telegram-bot/blob/master/docs/logo.png?raw=true)    
   
 # Kicker-telegram-bot
 
