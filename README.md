@@ -17,7 +17,7 @@ To build and run the application, you will need Java preinstalled.
 
 ```bash
 $ git clone https://github.com/zh-efimenko/Kicker-telegram-bot.git  
-$ cd ZenKicker  
+$ cd Kicker-telegram-bot  
 $ ./gradlew build installDist  
 $ ./build/install/Kicker-telegram-bot/bin/Kicker-telegram-bot --kicker.api.host=value --telegram.access-key=value
 ```
