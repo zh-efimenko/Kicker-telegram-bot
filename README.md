@@ -41,6 +41,6 @@ All of them are required to run the application.
 Configure the **kicker.api.host** environment variable to point to the host where 
 you are running your Kicker server. 
 
-* `telegram.access-key` or `$TELEGRAM_ACCESS_KEY`
+* `telegram.access-key` or `TELEGRAM_ACCESS_KEY`
 
 Configure the **telegram.access-key** environment variable to point to the your telegram bot.
