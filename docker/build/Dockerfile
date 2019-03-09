@@ -9,4 +9,4 @@ FROM openjdk:11-jre-slim
 WORKDIR /root
 COPY --from=build /root/application/build/install /root/
 
-ENTRYPOINT ["/root/Kicker-telegram-bot/bin/Kicker-telegram-bot"]
+ENTRYPOINT ["/root/application/bin/application"]
