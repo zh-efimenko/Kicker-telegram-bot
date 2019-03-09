@@ -25,17 +25,22 @@ $ ./build/install/Kicker-telegram-bot/bin/Kicker-telegram-bot --kicker.api.host=
 ### Dockerimage
 
 ```bash
-$ docker run -d --name kicker-bot --restart always eefimenko/kicker-telegram-bot \
-	--kicker.api.host=value --telegram.access-key=value
+$ docker run -d --name kicker-bot --restart always \
+             -e TELEGRAM_ACCESS_KEY=$TELEGRAM_ACCESS_KEY \
+             -e KICKER_API_HOST=$KICKER_API_HOST \
+             eefimenko/kicker-telegram-bot
 ```
 
 ## Prerequisites
 
-* `kicker.api.host`
+The **_Application_** uses several environment variables. 
+All of them are required to run the application.
+
+* `kicker.api.host` or `KICKER_API_HOST`
 
 Configure the **kicker.api.host** environment variable to point to the host where 
 you are running your Kicker server. 
 
-* `telegram.access-key`
+* `telegram.access-key` or `$TELEGRAM_ACCESS_KEY`
 
 Configure the **telegram.access-key** environment variable to point to the your telegram bot.
