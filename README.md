@@ -19,7 +19,7 @@ To build and run the application, you will need Java preinstalled.
 $ git clone https://github.com/zh-efimenko/Kicker-telegram-bot.git  
 $ cd Kicker-telegram-bot  
 $ ./gradlew build installDist  
-$ ./build/install/Kicker-telegram-bot/bin/Kicker-telegram-bot --kicker.api.host=value --telegram.access-key=value
+$ ./build/install/kicker-telegram-bot/bin/kicker-telegram-bot --kicker.api.host=value --telegram.access-key=value
 ```
 
 ### Dockerimage
